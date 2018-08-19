@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='D:/001forM/project/vim/.git'
+let g:netrw_dirhist_2='D:/001forM/project/vim/.git/hooks'
+let g:netrw_dirhist_3='D:/001forM/project/vim/.git'
+let g:netrw_dirhist_4='D:/001forM/project/vim'
+let g:netrw_dirhist_5='D:/001forM/project/vim/vim80'
+let g:netrw_dirhist_6='D:/001forM/project/vim'
+let g:netrw_dirhist_7='D:/001forM/project/vim/userset'
+let g:netrw_dirhist_8='D:/001forM/project/vim/vimfiles/doc'
+let g:netrw_dirhist_9='D:/001forM/project/vim/userset'
