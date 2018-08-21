@@ -1,0 +1,4 @@
+ Begin 
+seting is able
+/home/code-l/vimfiles/Userset.vim/ftplugin/python/CompletePack
+/home/code-l/vimfiles/Userset.vim/ftplugin/python/CompletePack _ right

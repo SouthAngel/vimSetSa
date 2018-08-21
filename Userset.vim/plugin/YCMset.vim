@@ -1,7 +1,6 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => YouCompleteMe  代码自动补全
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Bundle 'Valloric/YouCompleteMe'
 " youcompleteme  默认tab  s-tab 和自动补全冲突
 " let g:ycm_key_list_select_completion=['<c-n>']
 " let g:ycm_key_list_select_completion = ['<Down>']

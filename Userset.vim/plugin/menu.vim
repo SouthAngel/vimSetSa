@@ -1,3 +1,5 @@
+
+set mousemodel=popup
 if &term=="builtin_gui"
 	unmenu PopUp
 	nme PopUp.Copy\ all ggVG"+y
