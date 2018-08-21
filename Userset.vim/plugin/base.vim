@@ -4,6 +4,7 @@ filetype plugin on
 set background=dark
 colorscheme solarized
 set guifont=Consolas
+set mousemodel=popup
 
 set number
 set relativenumber
