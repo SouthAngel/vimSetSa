@@ -5,3 +5,5 @@ def selectNum( **args ):
     return 1
 
 selectNum()
+
+ClassA

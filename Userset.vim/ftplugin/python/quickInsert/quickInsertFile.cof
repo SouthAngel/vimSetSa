@@ -1,6 +1,23 @@
 <insert_item>
-  <item word="head">
+  <content>
+    <item word="head">
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
-  </item>
+# Autor: %autor% 
+# E-mail: %e-mail% 
+# Time: %time% 
+    </item>
+    <item word="deco">
+def decorator( fun ):
+    def _mid( *args, **kwargs):
+        res_fun = fun( args, kwargs)
+        return res_fun
+    return _mid
+    </item>
+  </content>
+  <sample>
+    <item word="autor">PengCheng</item>
+    <item word="e-mail">1932554894@qq.com</item>
+    <timeFormat>%Y-%m-%d %H:%M</timeFormat>
+  </sample>
 </insert_item>
