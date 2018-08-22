@@ -28,4 +28,12 @@ fu! textFunLib#ToggledWith(head) range
 	unl a:sub
 endf
 
+fu! textFunLib#quickInsert()
+	py3 import quickInsert;quickInsert.insertFromCurrentLine()
+endf
+
+fu! textFunLib#completeClass()
+	py3 import quickInsert;quickInsert.completeClass()
+endf
+
 
