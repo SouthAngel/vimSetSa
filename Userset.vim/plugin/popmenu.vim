@@ -1,6 +1,8 @@
 
 set mousemodel=popup
+echo &term
 if &term=="builtin_gui"
+	echo &term
 	unmenu PopUp
 	nme PopUp.Copy\ all ggVG"+y
 	nme PopUp.split\ V <C-W>v

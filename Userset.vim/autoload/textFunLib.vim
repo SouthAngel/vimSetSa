@@ -1,4 +1,5 @@
 if exists("*textFunLib#ToggledWith")
+	call textFunLib#quickInsert()
 	finish
 en
 
@@ -26,6 +27,13 @@ fu! textFunLib#ToggledWith(head) range
 	unl a:cpos
 	unl a:pat
 	unl a:sub
+endf
+
+" head
+
+let g:quickInsertSampleFile="/home/code-l/vimfiles/Userset.vim/ftplugin/python/quickInsert/quickInsertFile.cof"
+fu! textFunLib#quickInsert()
+	py3 import quickInsert;quickInsert.insertFromCurrentLine()
 endf
 
 
