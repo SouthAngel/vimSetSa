@@ -35,6 +35,7 @@ Plugin 'SuperTab'
 " Plugin 'kien/ctrlp.vim'
 " Plugin 'davidhalter/jedi-vim'
 Plugin 'mattn/emmet-vim'
+Plugin 'vim-syntastic/syntastic'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

@@ -8,6 +8,7 @@ nnoremap <Esc> :
 inoremap <C-Up> <Esc>ddkPi
 inoremap <C-Down> <Esc>ddpi
 inoremap <C-S> <Esc>:w<CR>a
+inoremap <C-d> <Esc>yypa
 inoremap <C-Z> <Esc>u
 inoremap <C-BS> <Esc>bdwi
 vnoremap / y/<C-R>+<CR>
