@@ -14,6 +14,10 @@ def decorator( fun ):
         return res_fun
     return _mid
     </item>
+    <item word="runmain">
+if __name__ == '__main__':
+    print('Run in main')
+    </item>
   </content>
   <sample>
     <item word="autor">PengCheng</item>
