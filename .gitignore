@@ -1,5 +1,6 @@
 # Git
 .git/
+__pycache__/
 
 # Vim
 *.swp
