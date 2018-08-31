@@ -10,5 +10,6 @@ let g:quickInsertSampleFile="/home/code-l/vimfiles/Userset.vim/ftplugin/python/q
 noremap <buffer> ^ :call textFunLib#ToggledWith("\#\ ")<CR>
 noremap <buffer> <F5> :w<CR>:!python %<CR>
 noremap <buffer> <F4> :call textFunLib#completeClass()<CR>
-noremap <buffer> <leader>tt :call textFunLib#quickInsert()<CR>
-noremap <buffer> <leader>tc :call textFunLib#completeClass()<CR>
+nnoremap <buffer> <leader>tt :call textFunLib#quickInsert()<CR>
+nnoremap <buffer> <leader>tc :call textFunLib#completeClass()<CR>
+inoremap <C-Tab> <C-x><C-k>

@@ -1,4 +1,5 @@
 import os
+from PySide2 import QtWidgets
 
 def selectNum( **args ):
     print(7646)
@@ -6,4 +7,10 @@ def selectNum( **args ):
 
 selectNum()
 
-ClassA
+class ClassA(QtWidgets.QWidget):
+
+    def __init__(self):
+        super(ClassA, self).__init__()
+
+    def testF(self):
+        self.
