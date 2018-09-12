@@ -13,4 +13,9 @@ class ClassA(QtWidgets.QWidget):
         super(ClassA, self).__init__()
 
     def testF(self):
-        self.
+        self.std = 'gogmi'
+
+
+def ():
+
+    print(0)
