@@ -36,6 +36,8 @@ Plugin 'SuperTab'
 " Plugin 'davidhalter/jedi-vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'vim-syntastic/syntastic'
+" Plugin 'nvie/vim-flake8'
+Plugin 'tmhedberg/SimpylFold'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
